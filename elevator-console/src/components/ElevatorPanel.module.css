@@ -1,0 +1,86 @@
+.outerbox {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+	text-align: center;
+	background-color: grey;
+}
+.topbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	height: 45%;
+	width: 90%;
+	margin: 5%;
+	background: black;
+	color: white;
+}
+.topleftbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	align-items: left;
+
+	width: 70%;
+	height: 100%;
+}
+.toprightbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	width: 30%;
+	height: 100%;
+}
+.topmidbox {
+	height: 10px;
+}
+.triangleup {
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 60px solid green;
+}
+.activatedup {
+	border-bottom: 60px solid rgb(124, 245, 124);
+}
+.triangledown {
+	width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 60px solid red;
+}
+.activateddown {
+	border-top: 60px solid rgb(250, 99, 99);
+}
+
+.bottombox {
+	height: 45%;
+	width: 100%;
+}
+.consolebox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 30%;
+	width: 90%;
+	padding: 5px;
+	margin: 5px;
+}
+.buttondesign {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 90%;
+	width: 15%;
+	border-radius: 50%;
+}
+.activated {
+	background: yellow;
+}
